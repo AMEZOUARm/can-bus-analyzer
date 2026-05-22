@@ -19,3 +19,6 @@ stats = get_statistics(frames)
 print(f"\nStats globales :")
 for k, v in stats.items():
     print(f"  {k}: {v}")
+
+from analyzer.reporter import export_report
+export_report(frames)
