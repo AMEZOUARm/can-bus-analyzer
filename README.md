@@ -12,6 +12,8 @@ Built as part of an automotive validation engineering portfolio.
 - Frame frequency analysis
 
 ## Project Structure
+
+```
 can-bus-analyzer/
 ├── analyzer/
 │   ├── parser.py       # CAN log parser
@@ -23,6 +25,7 @@ can-bus-analyzer/
 ├── output/             # Generated reports
 ├── main.py
 └── requirements.txt
+```
 
 ## Installation
 
