@@ -22,3 +22,7 @@ for k, v in stats.items():
 
 from analyzer.reporter import export_report
 export_report(frames)
+
+from analyzer.dashboard import print_dashboard
+
+print_dashboard(frames)
