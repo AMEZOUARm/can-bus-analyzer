@@ -45,6 +45,7 @@ python main.py data/sample.log
 ```
 
 ## Output Example
+```
 ============================================================
 CAN BUS ANALYZER - DASHBOARD
 Total frames  : 10
@@ -56,7 +57,7 @@ CAN ID          Count  Freq         Bar
 18FEF100            3  33.3 f/s     ##########
 0CF00400            2  22.2 f/s     ######
 18F00503            2  22.2 f/s     ######
-
+```
 ## Stack
 
 - Python 3.x
